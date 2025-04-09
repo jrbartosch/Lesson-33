@@ -2,7 +2,7 @@ import pygame
 pygame.init()
 SCREEN_WIDTH, SCREEN_HEIGHT = 500, 500
 display_surface = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption('Adding Image and Background Image...')
+pygame.display.set_caption('Adding Images with Pygame')
 background_image = pygame.transform.scale(
     pygame.image.load('pexels-lum3n-44775-311039.jpg').convert(), (SCREEN_WIDTH, SCREEN_HEIGHT))
 front_image = pygame.transform.scale(
